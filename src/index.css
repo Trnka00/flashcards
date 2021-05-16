@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: inherit;
+  background-color: rgb(247, 247, 247);
+  font-family: 'Montserrat';
+}
+
+.app {
+  background-color: #cfcfcf;
+  max-width: 960px;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.invert {
+  filter: invert(1);
+}

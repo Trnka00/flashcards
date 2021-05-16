@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  font-size: 1.6rem;
+  background-color: rgb(161, 161, 161);
+  border-radius: 15px;
+}
+.btnContainer {
+  width: 15rem;
+  display: flex;
+  justify-content: space-between;
+}
+.btnContainer img {
+  height: 4rem;
+}
+.btnContainer img:not(:last-child) {
+  box-sizing: initial;
+  margin-right: 1rem;
+}

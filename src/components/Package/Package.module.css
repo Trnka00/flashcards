@@ -1,0 +1,31 @@
+.container {
+  background-color: #c0c0c0;
+  margin: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+}
+.info {
+  padding: 2rem 0 2rem 4rem;
+}
+
+.info h2 {
+  font-size: 2rem;
+}
+
+.info p {
+  font-size: 1.4rem;
+  color: red;
+}
+
+.buttons {
+  padding-right: 4rem;
+}
+
+.buttons img {
+  height: 4rem;
+}
+.buttons img:not(:last-child) {
+  margin-right: 1rem;
+}

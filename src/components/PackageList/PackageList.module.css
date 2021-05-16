@@ -1,0 +1,6 @@
+.container {
+  width: 100%;
+  height: calc(100% - 11rem);
+  overflow-y: auto;
+  /* background-color: red; */
+}
